@@ -68,8 +68,8 @@ using namespace as;
 // define all device properties
 // Bei mehreren Geräten des gleichen Typs muss Device ID und Device Serial unterschiedlich sein!
 const struct DeviceInfo PROGMEM devinfo = {
-    { 0xF8, 0x00, 0x01 },    // Device ID
-    "SGSENTH001",            // Device Serial
+    { 0xF8, 0x00, 0x03 },    // Device ID
+    "SGSENTH003",            // Device Serial
     { 0xF8, 0x00 },          // Device Model
     // Firmware Version
     // die CCU Addon xml Datei ist mit der Zeile <parameter index="9.0" size="1.0" cond_op="E" const_value="0x12" />
